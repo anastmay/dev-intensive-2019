@@ -8,8 +8,4 @@ class UserView (
     var avatare: String? = null,
     var status: String? = "offline"
 
-){
-
-
-
-}
+)
