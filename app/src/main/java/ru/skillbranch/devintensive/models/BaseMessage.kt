@@ -7,7 +7,7 @@ abstract class BaseMessage (
     val from: User?,
     val chat: Chat,
     val isIncoming: Boolean = false,
-    val date:Date = Date()
+    val date: Date = Date()
 ) {
     abstract fun formatmessage () : String
     companion object AbstractFactory{
